@@ -13,13 +13,17 @@
 
 import React from 'react';
 import { createRoot } from 'react-dom/client';
+import AppContextProvider from './js/context/AppContext';
+import QuestionComponent from './js/components/QuestionComponent';
 
 const root = createRoot(document.getElementById('root'));
 
 class App extends React.Component {
     render () {
         return (
-            <div>React ready</div>
+            <AppContextProvider>
+                <QuestionComponent></QuestionComponent>
+            </AppContextProvider>
         )
     }
 }
