@@ -12,7 +12,6 @@ function  QuestionComponent() {
                     <div>{question.text}</div>
                     {question.choices.length > 0 &&
                         <ul>
-                            <li>{question.choices.length}</li>
                             {question.choices.map((choice, j) => 
                                 <li key={j}>{choice}</li>
                             )}
