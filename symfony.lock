@@ -540,9 +540,6 @@
     "symfony/string": {
         "version": "v5.4.3"
     },
-    "symfony/test-pack": {
-        "version": "v1.0.9"
-    },
     "symfony/translation": {
         "version": "5.4",
         "recipe": {
